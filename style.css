@@ -3,6 +3,8 @@
 :root {
   --clr-pale-blue: 225, 100%, 94%;
   --clr-bright-blue: 245, 75%, 52%;
+  --clr-blue: 228, 87%, 40%;
+
   --clr-purple: 245, 83%, 68%;
 
   --clr-very-pale-blue: 225, 100%, 98%;
@@ -71,6 +73,7 @@ body {
   border-radius: 2rem;
   overflow: hidden;
   text-align: center;
+  box-shadow: 0 20px 20px 0 hsl(var(--clr-blue), 0.1903);
 }
 
 .card__image {
