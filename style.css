@@ -73,7 +73,7 @@ body {
   border-radius: 2rem;
   overflow: hidden;
   text-align: center;
-  box-shadow: 0 20px 20px 0 hsl(var(--clr-blue), 0.1903);
+  box-shadow: 0 40px 40px -20px hsl(var(--clr-blue), 0.1518);
 }
 
 .card__image {
