@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <meta
+      name="description"
+      content="Order summary card component featuring a clean UI for reviewing subscription plans, pricing, and payment actions. Built as a Frontend Mentor challenge using modern HTML and CSS."
+    />
+    <meta
+      name="keywords"
+      content="order summary card, frontend mentor, HTML CSS component, UI design, subscription card, responsive design, web development project"
+    />
+    <meta name="author" content="Ruben de Man" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="summary-card">
+        <img
+          class="summary-card__image"
+          src="./images/illustration-hero.svg"
+          alt="Illustration of a person listening to music"
+        />
+
+        <section class="summary-card__body">
+          <div class="summary-card__content">
+            <h1 class="summary-card__title">Order Summary</h1>
+            <p class="summary-card__text">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+            <h2 class="sr-only">Selected plan</h2>
+
+            <ul class="summary-card__list" aria-labelledby="plan-heading">
+              <li class="summary-card__item">
+                <div class="summary-card__item-left">
+                  <img src="./images/icon-music.svg" alt="" />
+                  <div class="summary-card__item-info">
+                    <strong class="summary-card__item-title"
+                      >Annual Plan</strong
+                    >
+                    <span class="summary-card__item-price">$59.99/year</span>
+                  </div>
+                </div>
+                <a class="summary-card__item-link" href="#">Change</a>
+              </li>
+            </ul>
+          </div>
+          <div class="summary-card__buttons">
+            <a href="#" class="summary-card__button">Proceed to Payment</a>
+            <a href="#" class="summary-card__link">Cancel Order</a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="attribution">
+      <p class="attribution__text">
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="attribution__link"
+          href="https://rubendeman.nl"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Ruben de Man</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
