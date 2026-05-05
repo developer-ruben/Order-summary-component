@@ -92,7 +92,7 @@ button {
   background-color: hsl(var(--clr-white));
   max-width: 450px;
   overflow: hidden;
-  box-shadow: 0 40px 40px -20px hsl(var(--clr-blue-700), 0.1518);
+  box-shadow: 0 40px 40px -20px hsla(var(--clr-blue-700), 0.1518);
 }
 
 .summary-card__image {
@@ -182,7 +182,7 @@ button {
 
 .summary-card__button {
   transition: background-color 0.3s ease-in-out;
-  box-shadow: 0 20px 20px 0 hsl(var(--clr-blue-700), 0.1903);
+  box-shadow: 0 20px 20px 0 hsla(var(--clr-blue-700), 0.1903);
   border: 0;
   border-radius: 0.6875rem;
   background-color: hsl(var(--clr-blue-700));
@@ -238,7 +238,7 @@ button {
 
 @media only screen and (max-width: 700px) {
   body {
-    background-image: url("./imagess/pattern-background-mobile.svg");
+    background-image: url("./images/pattern-background-mobile.svg");
   }
 
   .summary-card__body {
